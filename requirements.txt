@@ -1,0 +1,6 @@
+torch
+torchvision
+pycocotools
+matplotlib
+tqdm
+Pillow

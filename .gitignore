@@ -1,0 +1,23 @@
+```
+# 忽略數據集
+data/
+
+# 忽略模型檢查點
+weights/
+
+# 忽略預測輸出
+output/
+
+# 忽略虛擬環境
+venv/
+
+# 忽略 Python 緩存文件
+*.pyc
+__pycache__/
+
+# 忽略臨時文件
+*.log
+*.tar
+*.zip
+*.gz
+```
