@@ -72,7 +72,7 @@ def main():
         plotter = Plotter(classes)
 
         if args.num_random > 0:
-            image_dir = os.path.join(args.data_dir, 'val' if args.dataset_type == 'voc' else 'val2017')
+            image_dir = os.path.join(args.data_dir, 'JPEGImages' if args.dataset_type == 'voc' else 'val2017')
             predictions_list = predictor.predict_random(image_dir, args.num_random)
             for predictions in predictions_list:
                 output_path = plotter.plot_predictions(predictions)
